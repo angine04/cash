@@ -110,7 +110,7 @@ namespace cash
         BuiltinCommand{"help", help, "shows this message."},
         BuiltinCommand{"cd", cd, "changes directory."},
         BuiltinCommand{"exit", exit, "exits the shell program."},
-        BuiltinCommand{"history", history, "show history commands"}
+        BuiltinCommand{"history", history, "shows history commands"}
     }; //!< Array for built-in commands.
 }
 

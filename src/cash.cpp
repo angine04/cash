@@ -41,8 +41,7 @@ int cash::cd(const std::vector<std::string>& args)
         std::cout << "cd: too few arguments!" << std::endl
             << "Usage: cd dest_dir" << std::endl;
     }
-    else if (
-        args.size() >= 3)
+    else if (args.size() >= 3)
     {
         std::cout << "cd: too many arguments!" << std::endl;
     }
