@@ -1,0 +1,25 @@
+# CLion
+.idea/
+cmake-build-*/
+
+# macOS
+.DS_Store
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+build/
+
+# Output files
+*.log
+
+# CMake specific
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
